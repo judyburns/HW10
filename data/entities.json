@@ -1,0 +1,31 @@
+{ "favorites": [
+     {
+     "name": "Favorite #1",
+     "desc": "A Day In The Sunshine",
+     "path": "././images/flower_1.png"
+     },
+
+  {
+    "name": "Favorite #2",
+    "desc": "Simultaneous Day and Night",
+    "path": "././images/flower_2.png"
+  },
+  {
+    "name": "Favorite #3",
+    "desc": "Eye Opening Colors",
+    "path": "././images/flower_3.png"
+  },
+
+  {
+    "name": "Favorite #4",
+    "desc": "Color Reflections",
+    "path": "././images/flower_4.png"
+  },
+
+  {
+    "name": "Favorite #5",
+    "desc": "Shadows Of Beauty",
+    "path": "././images/flower_5.png"
+  }
+ ]
+}
