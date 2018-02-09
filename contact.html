@@ -1,70 +1,86 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <title>contact</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/hw6.css" type="text/css">
+  <link rel="stylesheet" href="css/hw10.css" type="text/css">
 </head>
 <body>
-	<div class="container-fluid">
-		<div class="row h-100 justify-content-center align-items-center">
-			<div class="col-xs-12 header">
-				<img class="img-responsive taz" src="images/taz.jpg" alt="taz" width="150px" height="150px" />
-				<h1 class="main-heading">Judy M. Burns</h1>
-				<h2>Builder Of Software Solutions</h2>
-				<nav class="menu">
-					<ul>
-						<li class="link"><a href="index.html" target="_self" title="Home">Home</a></li>
-						<li class="link"><a href="jburns_resume.pdf" target="_blank" title="Resume">Resume</a></li>
-						<li class="link"><a href="training.html" target="_self" title="Training">Training</a></li>
-						<li class="link"><a href="contact.html" target="_self" title="Contact">Contact</a></li>
-					</ul>
-				</nav>
-			</div>
-		</div> <!-- end row -->
-		<div class="row h-100 justify-content-center align-items-center container-contact">
-			<div class="col-xs-12 col">
-				<h3 class="title">Contact Information</h3>
-				<p>I am located in the greater Cleveland, Ohio area. For more information, please fill out the contact form below:</p>
-				<br />
-				<div class="embed-responsive embed-responsive-16by9">
-					<iframe class="embed-responsive-item"
-						src="http://maps.google.com/maps?q=cleveland+ohio&amp;output=embed">
-					</iframe>
-				</div>
-			</div> <!-- end col -->
-		</div> <!-- end row -->
-		<div class="row h-100 justify-content-center align-items-center container-contact">
-			<form class= "col-xs-12 col" action="http://judymburns.com/subscribe.php" method="post">
-				<fieldset>
-					<legend><h3>Contact Me</h3></legend>
-					<div class="form-group">
-						<label>Full Name:<br />
-							<input class="form-control" type="text" name="fullname" placeholder="Enter your full name" required="required" size="125"   /></label><br /><br />
-					</div> <!-- end form-group -->
-					<div class="form-group">
-						<label>Email Address:<br />
-						<input class="form-control" type="email" name="email" placeholder="Enter your email address" required="required" size="125"  /></label><br /><br />
-					</div> <!-- end form-group -->
-					<div class="form-group">
-						<label>CC:<br />
-						<input class="form-control" type="text" name="cc" size="100" /></label><br /><br />
-					</div> <!-- end form-group -->
-					<div class="form-group">
-						<label>Subject:<br />
-						<input class="form-control" type="text" name="subject" placeholder="Enter your subject" required="required" size="125" /></label><br /><br >
-					</div> <!-- end form-group -->
-					<div class="form-group">
-						<label>Message:<br />
-							<textarea class="form-control" name="message" placeholder="Enter your message" required="required" cols="125" rows="4"></textarea></label><br /><br />
-					</div> <!-- end form-group -->
-					<div class="form-group">
-						<input class="form-control" type="submit" name="submit" value="Submit" />
-					</div> <!-- end form-group -->
-				</fieldset>
-			</form> <!-- end form -->
-		</div> <!-- end row -->
-	</div> <!-- container -->
+    <div class="container-fluid">
+        <div class="row h-100 justify-content-center align-items-center">
+            <div class="col-xs-12 col">
+                <div class="header">
+                    <hgroup>
+                        <h1>Judy M. Burns</h1>
+                        <h2>Builder Of Software Solutions</h2>
+                    </hgroup>
+                    <img class="taz" src="images/taz.jpg" alt="taz" />
+                </div>
+                <div>
+                    <nav class="main-menu">
+                        <ul>
+                            <li class="link"><a href="index.html" target="_self" title="Home">Home</a></li>
+                            <li class="link"><a href="jburns_resume.pdf" target="_blank" title="Resume">Resume</a></li>
+                            <li class="link"><a href="training.html" target="_self" title="Training">Training</a></li>
+                            <li class="link"><a href="contact.html" target="_self" title="Contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div> <!-- end col -->
+        </div> <!-- end row -->
+        <div class="row h-100 justify-content-center align-items-center">
+            <div class="col-xs-12 col container-contact">
+                <h3 class="title">Contact Information</h3>
+                <p>I am located in the greater Cleveland, Ohio area. For more information, please fill out the contact form below:</p>
+                <br />
+                <div>
+                    <iframe width="800" 
+                            height="400"
+                            src="http://maps.google.com/maps?q=cleveland+ohio&amp;output=embed"></iframe>
+                </div>
+            </div> <!-- end col -->
+        </div> <!-- end row -->
+        <div class="row h-100 justify-content-center align-items-center">
+            <form class="col-xs-12 col container-contact" action="http://judymburns.com/subscribe.php" method="post">
+                <fieldset>
+                    <legend>Contact Me</legend>
+                    <div class="form-group">
+                        <label>
+                            Full Name:<br />
+                            <input class="form-control" type="text" name="fullname" placeholder="Enter your full name" required="required" size="125" />
+                        </label><br /><br />
+                    </div> <!-- end form-group -->
+                    <div class="form-group">
+                        <label>
+                            Email Address:<br />
+                            <input class="form-control" type="email" name="email" placeholder="Enter your email address" required="required" size="125" />
+                        </label><br /><br />
+                    </div> <!-- end form-group -->
+                    <div class="form-group">
+                        <label>
+                            CC:<br />
+                            <input class="form-control" type="text" name="cc" size="100" />
+                        </label><br /><br />
+                    </div> <!-- end form-group -->
+                    <div class="form-group">
+                        <label>
+                            Subject:<br />
+                            <input class="form-control" type="text" name="subject" placeholder="Enter your subject" required="required" size="125" />
+                        </label><br /><br>
+                    </div> <!-- end form-group -->
+                    <div class="form-group">
+                        <label>
+                            Message:<br />
+                            <textarea class="form-control" name="message" placeholder="Enter your message" required="required" cols="125" rows="4"></textarea>
+                        </label><br /><br />
+                    </div> <!-- end form-group -->
+                    <div class="form-group">
+                        <input class="form-control" type="submit" name="submit" value="Submit" />
+                    </div> <!-- end form-group -->
+                </fieldset>
+            </form> <!-- end form -->
+        </div> <!-- end row -->
+    </div> <!-- container -->
 </body>
 </html>
