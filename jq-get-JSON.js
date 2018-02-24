@@ -11,6 +11,7 @@ $(document).ready(function () {
         $.getJSON('data/entities.json', function (result) {
             var msg = '';
             var $favoritesContainer = $('#favorites-container');
+            $favoritesContainer.hide();
             $.each(result.favorites, function (i, field) {
                 msg += '<div class="favorites"><figure>';
                 msg += '<div class="fav-image">';
@@ -23,9 +24,10 @@ $(document).ready(function () {
             });
             $favoritesContainer.html(msg);
             // fade in images one at a time
-            $favoritesContainer.find(".favorites").each(function (index) {
-                $(this).delay(2000 * index).animate({ opacity: 1 }, 3000)
-            });
+            //$favoritesContainer.find(".favorites").each(function (index) {
+            //    $(this).delay(2000 * index).animate({ "opacity": "1" }, 3000);
+            //});
+            $favoritesContainer.fadeIn(3000);
         });
     });
 });
